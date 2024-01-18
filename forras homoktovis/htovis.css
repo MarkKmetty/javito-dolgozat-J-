@@ -1,0 +1,104 @@
+body{
+  padding: 15px;
+  background-image: url(hatter.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+h1, h2{
+  text-align:center;
+  font-size: 222%;
+  margin: 0px 0px 10px;
+  font-size: larger;
+  color: #eb7100;
+}
+
+
+p{
+  text-align:justify;
+  text-decoration: none;
+}
+
+p:first-letter, .blokktores{
+  margin-left: 25px;
+}
+
+.f{
+  font-weight:bold;
+}
+
+.keret, #erdekesseg{
+  background-image: url(bokor.png);
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-size: 75%;
+  background-color: #f1f1f1;
+  box-shadow: 10px 10px 5px #cfb7a2;
+  border-style: groove;
+}
+
+#erdekesseg{
+  width:250px;
+  float:right;
+  margin: 0px 0px 20px 15px;
+  background-color: #ffffcc;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+#bokor, .keret{
+  width: 550px;
+  border: 5px solid #eb7100;
+}
+
+#termes{
+  float:left;
+  height:400px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+li{
+  margin: 3px 0px;
+  font-style: italic;
+}
+
+.blokktores, h2{
+  clear: both;
+}
+
+#bevezeto{
+  width: 600px;
+}
+
+main, #termes{
+  background-image: url(termes.png);
+  background-position:initial;
+  background-repeat: no-repeat;
+  float:left;
+  height:400px;
+  margin-right: 25px;
+  background-attachment:scroll;
+  background-position: left;
+  background-size: 20%;
+  margin-bottom: 20px;
+}
+
+#a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-image: url('bogyo.png');
+}
+
+article{
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+}
